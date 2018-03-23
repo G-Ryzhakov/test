@@ -1,0 +1,10 @@
+channels:
+- conda-forge
+- defaults
+dependencies:
+- pip:
+  - autograd==1.1.9
+  - matplotlib==2.0.2
+  - numpy==1.13.3
+  - sympy==1.0
+
