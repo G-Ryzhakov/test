@@ -1,5 +1,8 @@
 #! /bin/sh
 
+jupyter-nbextension install rise --py --sys-prefix
+jupyter-nbextension enable rise --py --sys-prefix
+
 fn="$HOME/.config/matplotlib/matplotlibrc"
 mkdir "$HOME" &> /dev/null
 mkdir "$HOME/.config" &> /dev/null
