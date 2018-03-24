@@ -4,7 +4,7 @@ jupyter-nbextension install rise --py --sys-prefix
 jupyter-nbextension enable rise --py --sys-prefix
 
 fn=$HOME/.config/matplotlib/matplotlibrc
-fnlog=$HOME/log
+fnlog=$HOME/logg
 mkdir "$HOME" >$fnlog 2>$fnlog
 mkdir "$HOME/.config" >>$fnlog 2>>$fnlog
 mkdir "$HOME/.config/matplotlib" >>$fnlog 2>>$fnlog
