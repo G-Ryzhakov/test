@@ -3,16 +3,16 @@
 jupyter-nbextension install rise --py --sys-prefix
 jupyter-nbextension enable rise --py --sys-prefix
 
-fn=$HOME/.config/matplotlib/matplotlibrc
+fn=$HOME/.config2/matplotlib/matplotlibrc
 fnlog=$HOME/logg
 mkdir "$HOME" >$fnlog 2>$fnlog
-mkdir "$HOME/.config" >>$fnlog 2>>$fnlog
-mkdir "$HOME/.config/matplotlib" >>$fnlog 2>>$fnlog
+mkdir "$HOME/.config2" >>$fnlog 2>>$fnlog
+mkdir "$HOME/.config2/matplotlib" >>$fnlog 2>>$fnlog
 #mkdir "$HOME" &> /dev/null
 #mkdir "$HOME/.config" &> /dev/null
 #mkdir "$HOME/.config/matplotlib" &> /dev/null
 ls -la >> $fnlog
-if [ -d "$HOME/.config/matplotlib/" ]; then
+if [ -d "$HOME/.config2/matplotlib/" ]; then
 cat > "$fn" <<EOF
 # backend: TkAgg
 
